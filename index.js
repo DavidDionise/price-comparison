@@ -19,12 +19,6 @@ async function main() {
         .then(({ data: { offerAmount } }) => {
           const { lead : { vehicle, offer: { icoValue } } } = inspection;
           return {
-            ID: inspection._id,
-            VIN: vehicle.vin,
-            Year: vehicle.year,
-            Make: vehicle.make,
-            Model: vehicle.model,
-            Condition: vehicle.condition.overallCondition,
             "ICO Value": icoValue,
             "Final Offer": offerAmount,
             "Difference": icoValue - offerAmount
