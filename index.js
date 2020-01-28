@@ -15,7 +15,7 @@ async function main() {
   const client = await MongoClient.connect(URL);
   const db = client.db(DB_NAME);
   const inspectionsCollection = db.collection("inspection");
-  const inspections = await inspectionsCollection.find({ status: "ACCEPTED" }, { limit: LIMIT }).toArray();
+  const inspections = await inspectionsCollection.find({ status: "ACCEPTED" }, { limit: +LIMIT }).toArray();
   const report = await Promise.all(
     inspections.map((inspection) => (
       axios.get(`${BACKPACK_URL}/inspections/${inspection._id}/result?key=${BACKPACK_API_KEY}`)
