@@ -1,6 +1,5 @@
 const { MongoClient } = require("mongodb");
-const axios = require("axios");
-// const { Console } = require("console");
+const https = require("https");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const path = require("path");
 const fs = require("fs");
@@ -18,21 +17,19 @@ const csvWriter = createCsvWriter({
     { id: "model", title: "Model" },
     { id: "trim", title: "Trim" },
     { id: "finalOffer", title: "Final Offer" },
-    { id: "icoValue", title: "ICO Value" }
+    { id: "icoValue", title: "ICO Value" },
+    { id: "status", title: "Status" }
   ]
 });
 
 async function main() {
   try {
-    // const client = await MongoClient.connect(URL);
-    // const db = client.db(DB_NAME);
-    // const inspectionsCollection = db.collection("inspection");
-    // const inspections = inspectionsCollection.find({});
-    // const records = await processInspections(inspections);
-    // await csvWriter.writeRecords(records);
-    const result = await axios.get(
-      "https://roam-staging-api.detroitlabs.com/inspections/5e3aea0ea27d7c61990f9df1/result?key=AIzaSyA04HCMZhNYyXk4IER0qb2GSfmGAVR15O4"
-    )
+    const client = await MongoClient.connect(URL);
+    const db = client.db(DB_NAME);
+    const inspectionsCollection = db.collection("inspection");
+    const inspections = inspectionsCollection.find({});
+    const records = await processInspections(inspections);
+    await csvWriter.writeRecords(records);
   } catch (ex) {
     console.error(">> ERROR : ", ex);
   }
@@ -49,14 +46,15 @@ async function processInspections(inspectionsCursor) {
         make: lead.vehicle.make,
         model: lead.vehicle.model,
         trim: lead.vehicle.trim,
-        icoValue: lead.offer.icoValue
+        icoValue: lead.offer.icoValue,
+        status: inspection.status
       };
 
       if (inspection.status == "ACCEPTED" || inspection.status == "DECLIINED") {
         getFinalOffer(inspection._id)
-          .then(finalOffer => {
-            console.log(">> Setting final offer: ", finalOffer);
-            record.finalOffer = finalOffer;
+          .then(response => {
+            const { offerAmount } = response;
+            record.finalOffer = offerAmount;
             records.push(record);
             inspectionsCursor.resume();
           })
@@ -73,16 +71,20 @@ async function processInspections(inspectionsCursor) {
   });
 }
 
-async function getFinalOffer(inspectionId) {
-  try {
-    const result = await axios.get(
-      `${BACKPACK_URL}/inspections/${inspectionId}/result?key=${BACKPACK_API_KEY}`
-    );
-    console.log(">> RESULT : ", result);
-    return result.data.offerAmount;
-  } catch (ex) {
-    console.error(">> ERROR GETTING FINAL OFFER : ", ex);
-  }
+function getFinalOffer(inspectionId) {
+  return new Promise((resolve, reject) => {
+    let rawData = ""
+    https.get(
+      `${BACKPACK_URL}/inspections/${inspectionId}/result?key=${BACKPACK_API_KEY}`,
+      {
+        rejectUnauthorized: false
+      },
+      (res) => {
+        res.on("data", (data) => rawData += data.toString());
+        res.on("end", () => resolve(JSON.parse(rawData)));
+      }
+    ).on("error", reject);
+  });
 }
 
 Promise.resolve(main())
