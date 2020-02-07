@@ -1,0 +1,486 @@
+Year,Make,Model,Trim,Final Offer,ICO Value
+,Jeep,Grand Cherokee,,,12890
+,Cadillac,CTS-V,,,5961
+,Ferrari,F430,,,2737
+,GMC,Suburban 2500,,,6176
+,Daihatsu,Charade,,,4390
+,Buick,Riviera,,,11661
+,Subaru,Forester,,,16006
+,Volkswagen,Eurovan,,,6254
+,Dodge,Grand Caravan,,,4517
+,Dodge,Grand Caravan,,,4517
+,Buick,Riviera,,,11661
+,Volkswagen,Eurovan,,,6254
+,Cadillac,CTS-V,,,5961
+,Ferrari,F430,,,2737
+,Daihatsu,Charade,,,4390
+,GMC,Suburban 2500,,,6176
+,Subaru,Forester,,,16006
+,Volkswagen,Eurovan,,,6552
+,Ferrari,F430,,,2737
+,Daihatsu,Charade,,,4390
+,Buick,Riviera,,,11661
+,Dodge,Grand Caravan,,,4621
+,Subaru,Forester,,,16006
+,Cadillac,CTS-V,,,5961
+,GMC,Suburban 2500,,,6176
+,GMC,Suburban 2500,,,6176
+,Daihatsu,Charade,,,4390
+,Ferrari,F430,,,2829
+,Dodge,Grand Caravan,,,4621
+,Cadillac,CTS-V,,,5961
+,Subaru,Forester,,,15046
+,Volkswagen,Eurovan,,,6254
+,Buick,Riviera,,,11661
+,Subaru,Impreza,,,9204
+,Ram,3500,,,29475
+,Ram,3500,,,29475
+,Ram,3500,,,29475
+,Ram,3500,,,29475
+,Ram,3500,,,29475
+,Ford,Explorer,,,29475
+,Subaru,Outback,,,20267
+,Ford,Explorer,,,17106
+,Subaru,Forester,,,14232
+,Subaru,Forester,,,13282
+,Subaru,Forester,,,13282
+,Hyundai,Tucson,,,7377
+,Ford,Explorer,,,28975
+,Ram,3500,,,28975
+,Chevrolet,Avalanche 1500,,,9727
+,Chevrolet,Avalanche 1500,,,7205
+,Chevrolet,Avalanche 1500,,,7205
+,Subaru,Impreza,,,8666
+,Subaru,Outback,,,20734
+,Nissan,Altima,,,14030
+,Chrysler,300,,,1758
+,Chrysler,300,,,837
+,Chrysler,300,,,820
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Dodge,Grand Caravan,,,6088
+,Subaru,Forester,,,14327
+,Volkswagen,Eurovan,,,8495
+,Daihatsu,Charade,,,4917
+,Dodge,Grand Caravan,,,6088
+,Subaru,Forester,,,14327
+,GMC,Suburban 2500,,,6493
+,Buick,Riviera,,,12038
+,Daihatsu,Charade,,,4944
+,Dodge,Grand Caravan,,,6521
+,Subaru,Forester,,,14327
+,Cadillac,CTS-V,,,6840
+,Daihatsu,Charade,,,4618
+,Subaru,Forester,,,14327
+,Volkswagen,Eurovan,,,8659
+,Ferrari,F430,,,4040
+,Volkswagen,Eurovan,,,7118
+,Daihatsu,Charade,,,4227
+,GMC,Suburban 2500,,,6550
+,Ferrari,F430,,,4036
+,Ford,Explorer,,,16029
+,Daihatsu,Charade,,,4873
+,Dodge,Grand Caravan,,,6055
+,Volkswagen,Eurovan,,,8647
+,Subaru,Forester,,,14327
+,Chevrolet,Camaro,,,25569
+,Chevrolet,Camaro,,,25569
+,Subaru,Outback,,,21395
+,Ram,3500,,,29200
+,Dodge,Grand Caravan,,,6092
+,GMC,Suburban 2500,,,6476
+,Cadillac,CTS-V,,,6766
+,Subaru,Forester,,,14327
+,Ford,Explorer,,,11962
+,Ram,3500,,,50436
+,Mazda,Mazda3,,,10640
+,Mazda,Mazda3,,,11648
+,Subaru,Forester,,,14327
+,Dodge,Grand Caravan,,,6008
+,Buick,Riviera,,,11878
+,Volkswagen,Eurovan,,,8578
+,GMC,Suburban 2500,,,6497
+,Ferrari,F430,,,4034
+,Cadillac,CTS-V,,,6796
+,Daihatsu,Charade,,,4981
+,Chevrolet,Camaro,,,22248
+,Ford,Explorer,,,11799
+,Subaru,Forester,,,12732
+,Ford,Explorer,,,16573
+,Chevrolet,Camaro,,,25260
+,Subaru,Forester,,,12732
+,Subaru,Forester,,,12732
+,Ferrari,F430,,,3896
+,Daihatsu,Charade,,,4902
+,Buick,Riviera,,,8210
+,Volkswagen,Eurovan,,,8617
+,Kia,Borrego,,,5302
+,Jeep,Grand Cherokee,,,30333
+,Ford,Mustang,,,16634
+,Ford,Mustang,,,16634
+,BMW,3 Series,,,11330
+,Ford,Explorer,,,14415
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,16609
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,13365
+,Volkswagen,Passat,,,4715
+,Chevrolet,Camaro,,,24977
+,Volkswagen,Jetta,,,9570
+,Ram,3500,,,51263
+,Ram,3500,,,29200
+,Subaru,Forester,,,13365
+,Ram,3500,,,29200
+,Subaru,Forester,,,13365
+,Chevrolet,Camaro,,,27825
+,Chevrolet,Camaro,,,27254
+,Ram,3500,,,44700
+,Chevrolet,Camaro,,,24745
+,Subaru,Forester,,,13365
+,Chevrolet,Camaro,,,25260
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Ram,3500,,,29200
+,Subaru,Forester,,,13365
+,Mercedes-Benz,E-Class,,,50588
+,Ford,Explorer,,,15833
+,Ram,3500,,,42569
+,Ram,3500,,,29200
+,Chevrolet,Camaro,,,27149
+,Ram,3500,,,29200
+,Ford,Taurus,,,19158
+,Ram,3500,,,29200
+,Ram,3500,,,42569
+,Ram,3500,,,42542
+,Ram,3500,,,29200
+,Ford,Mustang,,,16634
+,Ford,Mustang,,,9475
+,Ford,Mustang,,,16634
+,Ram,3500,,,29200
+,Ram,3500,,,29200
+,Ram,3500,,,42542
+,Ford,Mustang,,,16634
+,Ford,Mustang,,,16634
+,Ford,Mustang,,,16634
+,Ford,Mustang,,,11575
+,Ram,3500,,,42542
+,Ram,3500,,,29200
+,GMC,Suburban 2500,,,6469
+,Ferrari,F430,,,3500
+,Subaru,Forester,,,14217
+,Volkswagen,Eurovan,,,8604
+,Daihatsu,Charade,,,5213
+,Dodge,Grand Caravan,,,6009
+,Buick,Riviera,,,11934
+,Nissan,Rogue,,,16526
+,Nissan,Rogue,,,16932
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Subaru,Forester,,,14080
+,Ford,Explorer,,,14397
+,Ford,Mustang,,,16634
+,Ford,Explorer,,,11962
+,Ford,Explorer,,,4950
+,Ford,Explorer,,,16644
+,Ford,Explorer,,,16770
+,Volkswagen,Golf,,,13956
+,Volkswagen,Golf,,,6875
+,Volkswagen,Golf,,,6875
+,Volkswagen,Golf,,,15057
+,Volkswagen,Golf,,,14164
+,Ram,3500,,,42420
+,Chevrolet,Camaro,,,17775
+,Honda,Civic,,,350
+,Honda,Civic,,,1100
+,Honda,Civic,,,363
+,Subaru,Forester,,,14217
+,Dodge,Grand Caravan,,,6544
+,Buick,Riviera,,,11928
+,Chevrolet,Camaro,,,24745
+,Chevrolet,Camaro,,,24927
+,Chevrolet,Camaro,,,25157
+,Chevrolet,Camaro,,,24745
+,Ford,Explorer,,,11962
+,Subaru,Forester,,,13007
+,Ram,3500,,,29200
+,Ram,3500,,,29200
+,Ram,3500,,,29200
+,Chevrolet,Avalanche 1500,,,9406
+,GMC,Suburban 2500,,,7140
+,Subaru,Forester,,,14217
+,Cadillac,CTS-V,,,7234
+,Ferrari,F430,,,4251
+,Hyundai,Tucson,,,8729
+,Hyundai,Tucson,,,9622
+,Hyundai,Tucson,,,9095
+,Toyota,RAV4,,,11962
+,Toyota,Corolla,,,1614
+,Toyota,RAV4,,,11852
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Subaru,Forester,,,13365
+,Hyundai,Tucson,,,7897
+,Hyundai,Tucson,,,7298
+,Hyundai,Tucson,,,7298
+,Hyundai,Tucson,,,7298
+,Hyundai,Tucson,,,7298
+,Hyundai,Tucson,,,7298
+,Hyundai,Tucson,,,7298
+,Toyota,Corolla,,,12743
+,Infiniti,QX4,,,417
+,BMW,3 Series,,,11110
+,Subaru,Forester,,,12622
+,Subaru,Forester,,,13007
+,Subaru,Forester,,,14217
+,Daihatsu,Charade,,,4740
+,Dodge,Grand Caravan,,,5903
+,Hyundai,Tucson,,,7241
+,Toyota,RAV4,,,11852
+,Ford,Mustang,,,20986
+,Buick,Regal,,,5046
+,Ram,3500,,,28994
+,Ram,3500,,,28994
+,Buick,Regal,,,5046
+,Jeep,Liberty,,,10852
+,Ford,Explorer,,,11962
+,Ford,Explorer,,,11962
+,Chevrolet,Camaro,,,28016
+,Toyota,RAV4,,,11852
+,Ford,Explorer,,,11962
+,Ford,Explorer,,,11962
+,Ford,Mustang,,,16480
+,Subaru,Forester,,,14217
+,Subaru,Forester,,,13365
+,Volkswagen,Passat,,,5879
+,Ford,Explorer,,,11962
+,Ford,Mustang,,,20986
+,Toyota,RAV4,,,17865
+,Mercedes-Benz,C-Class,,,11455
+,Chevrolet,Camaro,,,24951
+,Pontiac,Vibe,,,1225
+,Ford,Explorer,,,10875
+,Ford,Explorer,,,16893
+,Toyota,RAV4,,,14905
+,Toyota,RAV4,,,14905
+,Ford,Explorer,,,11962
+,Chevrolet,Camaro,,,24951
+,Dodge,Grand Caravan,,,6051
+,Buick,Riviera,,,12073
+,Volkswagen,Eurovan,,,8349
+,Ferrari,F430,,,4167
+,Daihatsu,Charade,,,4912
+,GMC,Suburban 2500,,,7144
+,Cadillac,CTS-V,,,6875
+,Subaru,Forester,,,12897
+,Subaru,Forester,,,12897
+,Subaru,Forester,,,14107
+,Buick,Riviera,,,13180
+,Volkswagen,Eurovan,,,9131
+,Cadillac,CTS-V,,,6656
+,Dodge,Grand Caravan,,,6621
+,Cadillac,CTS-V,,,6873
+,Dodge,Grand Caravan,,,6667
+,GMC,Suburban 2500,,,7154
+,Buick,Riviera,,,11765
+,Subaru,Forester,,,14107
+,Buick,Riviera,,,10402
+,GMC,Suburban 2500,,,7177
+,Dodge,Grand Caravan,,,5932
+,Ferrari,F430,,,3500
+,Daihatsu,Charade,,,6120
+,GMC,Suburban 2500,,,6756
+,Cadillac,CTS-V,,,5838
+,Subaru,Forester,,,14107
+,Dodge,Grand Caravan,,,5513
+,Buick,Riviera,,,12184
+,Chevrolet,Camaro,,,24823
+,Subaru,Forester,,,15581
+,Subaru,Forester,,,16055
+,Ford,Mustang,,,20780
+,Toyota,RAV4,,,11660
+,Toyota,RAV4,,,11660
+,Toyota,RAV4,,,11385
+,Dodge,Grand Caravan,,,5033
+,GMC,Suburban 2500,,,6161
+,Subaru,Forester,,,13667
+,Ferrari,F430,,,4200
+,Volkswagen,Eurovan,,,7632
+,Subaru,Forester,,,12842
+,Subaru,Forester,,,12842
+,Infiniti,QX4,,,650
+,Ford,Explorer,,,12017
+,Volkswagen,Passat,,,7349
+,Toyota,Corolla,,,10910
+,Buick,Riviera,,,9178
+,Daihatsu,Charade,,,6910
+,Volkswagen,Eurovan,,,7183
+,Ferrari,F430,,,3567
+,Dodge,Grand Caravan,,,5396
+,Toyota,Corolla,,,12110
+,Cadillac,CTS-V,,,6253
+,Buick,Riviera,,,10829
+,GMC,Suburban 2500,,,7141
+,Dodge,Grand Caravan,,,5150
+,Daihatsu,Charade,,,6700
+,Subaru,Forester,,,13667
+,Subaru,Forester,,,12842
+,Cadillac,CTS-V,,,6475
+,Volkswagen,Eurovan,,,7057
+,GMC,Suburban 2500,,,7093
+,Ferrari,F430,,,4190
+,GMC,Suburban 2500,,,6729
+,Ferrari,F430,,,4048
+,Cadillac,CTS-V,,,6024
+,Daihatsu,Charade,,,6346
+,Buick,Riviera,,,15537
+,Ford,Explorer,,,8374
+,Volkswagen,Eurovan,,,7159
+,Ferrari,F430,,,4097
+,GMC,Suburban 2500,,,6706
+,Dodge,Grand Caravan,,,5020
+,Dodge,Grand Caravan,,,5032
+,Buick,Riviera,,,15515
+,Subaru,Forester,,,13667
+,GMC,Suburban 2500,,,6772
+,Daihatsu,Charade,,,5829
+,Cadillac,CTS-V,,,6217
+,Buick,Riviera,,,16266
+,GMC,Suburban 2500,,,6575
+,Chevrolet,Camaro,,,24720
+,Volkswagen,Eurovan,,,7368
+,Dodge,Grand Caravan,,,4880
+,Daihatsu,Charade,,,6114
+,Buick,Riviera,,,13169
+,Subaru,Forester,,,13667
+,Cadillac,CTS-V,,,6351
+,Ford,Explorer,,,12017
+,BMW,3 Series,,,10367
+,Subaru,Forester,,,13667
+,Chevrolet,Camaro,,,24720
+,Ram,3500,,,44129
+,Toyota,Corolla,,,12205
+,Ford,Explorer,,,12017
+,Ferrari,F430,,,4202
+,GMC,Suburban 2500,,,6187
+,Volkswagen,Eurovan,,,8797
+,Daihatsu,Charade,,,6762
+,Buick,Riviera,,,11126
+,Dodge,Grand Caravan,,,5302
+,Volkswagen,Eurovan,,,7392
+,Ferrari,F430,,,4108
+,GMC,Suburban 2500,,,6125
+,Cadillac,CTS-V,,,6616
+,Ferrari,F430,,,4202
+,Volkswagen,Eurovan,,,7546
+,Dodge,Grand Caravan,,,5323
+,Ferrari,F430,,,4170
+,GMC,Suburban 2500,,,6342
+,Buick,Riviera,,,11871
+,Chevrolet,Camaro,,,24720
+,Chevrolet,Camaro,,,24179
+,Chevrolet,Camaro,,,24179
+,Chevrolet,Camaro,,,24179
+,Subaru,Forester,,,12325
+,Subaru,Forester,,,13557
+,Cadillac,CTS-V,,,6474
+,Volkswagen,Eurovan,,,7881
+,Ferrari,F430,,,3906
+,GMC,Suburban 2500,,,5810
+,Kia,Borrego,,,2887
+,Pontiac,Vibe,,,2300
+,Pontiac,Vibe,,,2300
+,Chevrolet,Camaro,,,24720
+,Chevrolet,Camaro,,,24720
+,Chevrolet,Camaro,,,24720
+,Chevrolet,Camaro,,,24720
+,Chevrolet,Camaro,,,24720
+,Cadillac,CTS-V,,,6339
+,Ferrari,F430,,,3768
+,Daihatsu,Charade,,,5891
+,Dodge,Grand Caravan,,,5439
+,Subaru,Forester,,,13557
+,Acura,Integra,,,350
+,Buick,Riviera,,,11591
+,Cadillac,CTS-V,,,6753
+,Ferrari,F430,,,4205
+,Volkswagen,Eurovan,,,8953
+,Pontiac,Vibe,,,3606
+,Kia,Borrego,,,5740
+,Volkswagen,Eurovan,,,9317
+,Ferrari,F430,,,4375
+,Subaru,Forester,,,13310
+,GMC,Suburban 2500,,,7210
+,Chevrolet,Camaro,,,24024
+,Chevrolet,Camaro,,,24024
+,Chevrolet,Camaro,,,24024
+,Chevrolet,Camaro,,,24024
+,Chevrolet,Camaro,,,24024
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Chevrolet,Silverado 1500,,,5500
+,Chevrolet,Camaro,,,24308
+,Ford,Escape,,,13100
+,Ford,Escape,,,13100
+,Ford,Escape,,,7850
+,Ford,Escape,,,7850
+,Ford,Escape,,,7850
+,Ford,Explorer,,,11770
+,BMW,3 Series,,,10340
+,Subaru,Forester,,,12299
+,Ford,Mustang,,,21560
+,Ford,Explorer,,,11770
+,Pontiac,Vibe,,,1200
+,Pontiac,Vibe,,,1200
+,Pontiac,Vibe,,,1200
+,Ford,Explorer,,,11770
+,Subaru,Forester,,,13658
+,Subaru,Forester,,,13658
+,Subaru,Forester,,,13658
+,Subaru,Forester,,,13658
+,Subaru,Forester,,,13658
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Chevrolet,Camaro,,,24308
+,Toyota,RAV4,,,11632
+,Toyota,RAV4,,,11357
+,Ford,Explorer,,,11770
+,Chevrolet,Camaro,,,24308
+,Ford,Explorer,,,11770
+,Toyota,RAV4,,,11357
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Chevrolet,Camaro,,,24308
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Ford,Explorer,,,11770
+,Toyota,RAV4,,,11357
+,Toyota,RAV4,,,11357
+,Ford,Explorer,,,11770
+,Chevrolet,Camaro,,,24024
+,Ford,Explorer,,,11770
+,Chevrolet,Camaro,,,24024
+,GMC,Sierra 1500,,,8002
+,GMC,Sierra 1500,,,8002
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Subaru,Forester,,,12567
+,Ford,Focus,,,8592
+,Ford,Focus,,,8592
+,Ford,Explorer,,,11770
+,Chevrolet,Tahoe,,,7183
