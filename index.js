@@ -16,9 +16,12 @@ const csvWriter = createCsvWriter({
     { id: "make", title: "Make" },
     { id: "model", title: "Model" },
     { id: "trim", title: "Trim" },
-    { id: "finalOffer", title: "Final Offer" },
+    { id: "status", title: "Status" },
+    { id: "kbbPrice", title: "KBB Price" },
+    { id: "nadaPrice", title: "NADA Price" },
+    { id: "blackbookPrice", title: "Blackbook Price" },
     { id: "icoValue", title: "ICO Value" },
-    { id: "status", title: "Status" }
+    { id: "finalOffer", title: "Final Offer" }
   ]
 });
 
@@ -47,7 +50,10 @@ async function processInspections(inspectionsCursor) {
         model: lead.vehicle.model,
         trim: lead.vehicle.selectedTrim.name,
         icoValue: lead.offer.icoValue,
-        status: inspection.status
+        status: inspection.status,
+        kbbPrice: lead.offer.prices ? lead.offer.prices.kbbPrice : "No prices given",
+        nadaPrice: lead.offer.prices ? lead.offer.prices.nadaPrice : "No prices given",
+        blackbookPrice: lead.offer.prices ? lead.offer.prices.blackbookPrice : "No prices given"
       };
 
       if (inspection.status == "ACCEPTED" || inspection.status == "DECLIINED") {
@@ -73,17 +79,19 @@ async function processInspections(inspectionsCursor) {
 
 function getFinalOffer(inspectionId) {
   return new Promise((resolve, reject) => {
-    let rawData = ""
-    https.get(
-      `${BACKPACK_URL}/inspections/${inspectionId}/result?key=${BACKPACK_API_KEY}`,
-      {
-        rejectUnauthorized: false
-      },
-      (res) => {
-        res.on("data", (data) => rawData += data.toString());
-        res.on("end", () => resolve(JSON.parse(rawData)));
-      }
-    ).on("error", reject);
+    let rawData = "";
+    https
+      .get(
+        `${BACKPACK_URL}/inspections/${inspectionId}/result?key=${BACKPACK_API_KEY}`,
+        {
+          rejectUnauthorized: false
+        },
+        res => {
+          res.on("data", data => (rawData += data.toString()));
+          res.on("end", () => resolve(JSON.parse(rawData)));
+        }
+      )
+      .on("error", reject);
   });
 }
 
