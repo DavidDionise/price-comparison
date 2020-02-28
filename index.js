@@ -45,7 +45,7 @@ async function processInspections(inspectionsCursor) {
         year: lead.vehicle.year,
         make: lead.vehicle.make,
         model: lead.vehicle.model,
-        trim: lead.vehicle.trim,
+        trim: lead.vehicle.selectedTrim.name,
         icoValue: lead.offer.icoValue,
         status: inspection.status
       };
