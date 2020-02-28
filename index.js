@@ -42,7 +42,7 @@ async function processInspections(inspectionsCursor) {
       inspectionsCursor.pause();
       const { lead } = inspection;
       const record = {
-        year: inspection.year,
+        year: lead.vehicle.year,
         make: lead.vehicle.make,
         model: lead.vehicle.model,
         trim: lead.vehicle.trim,
