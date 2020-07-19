@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "csv-writer": "^1.6.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongodb": "^3.5.2"
   }
 }
